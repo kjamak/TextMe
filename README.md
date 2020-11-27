@@ -1,4 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# Created with React and Redux
+## You can see deployed project on:
+https://textme-kenan.web.app/
 
 ## Available Scripts
 
