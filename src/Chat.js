@@ -33,6 +33,7 @@ function Chat() {
             }))
           )
         );
+      console.log(chatId);
     }
   }, [chatId]);
 
@@ -66,11 +67,9 @@ function Chat() {
         <strong> Details</strong>
       </div>
       <div className="chat__messages" id="messageList">
-        <FlipMove>
-          {messages.map(({ id, data }) => (
-            <Message key={id} contents={data} />
-          ))}
-        </FlipMove>
+        {messages.map(({ id, data }) => (
+          <Message key={id} contents={data} />
+        ))}
       </div>
       <div className="chat__input">
         <form>
